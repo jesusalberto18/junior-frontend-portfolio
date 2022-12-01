@@ -1,2 +1,2 @@
-# junior-portfolio
+# My Fullstack Portfolio :sunglasses:
 Junior portfolio => :construction:
