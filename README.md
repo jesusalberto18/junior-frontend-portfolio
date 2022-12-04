@@ -1,2 +1,2 @@
-# My Fullstack Portfolio :sunglasses:
-Junior portfolio => :construction:
+# My Frontend Portfolio :sunglasses:
+Frontend portfolio => :construction:
