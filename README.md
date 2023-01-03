@@ -1,2 +1,4 @@
 # My Frontend Portfolio :sunglasses:
-Frontend portfolio => :construction:
+
+
+My personal fullstack portfolio => :construction:
