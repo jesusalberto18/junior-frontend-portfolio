@@ -30,6 +30,18 @@ strong {
   text-align: center;
 }
 
+.link-cv, .button-cv,
+.link-form, .button-form {
+  border: 2px solid #f11f2f;
+  border-radius: 60px;
+  color: #fff;
+  background: #f11f2f;
+  padding: 10px;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 12px; 
+}
+
 .start p,
 .about p,
 .projects p,
