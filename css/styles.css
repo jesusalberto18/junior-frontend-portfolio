@@ -3,3 +3,10 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+	color: #000;
+	background: #fff;
+	font-family: 'Arial Black', sans-serif;
+	margin: 40px;
+}
