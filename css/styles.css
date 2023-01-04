@@ -18,6 +18,12 @@ strong {
   font-family: 'Arial Black', sans-serif;
 }
 
+i {
+  background: #f11f2f;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
 /*SECTIONS*/
 
 .top {
@@ -36,10 +42,10 @@ strong {
   border-radius: 60px;
   color: #fff;
   background: #f11f2f;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
   font-weight: bolder;
-  font-size: 12px; 
+  font-size: 15px; 
 }
 
 .start p,
