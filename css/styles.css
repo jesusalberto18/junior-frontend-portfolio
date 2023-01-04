@@ -145,7 +145,8 @@ i {
 
 /*FOOTER*/
 
-.footer, .social, .quote {
+.footer, .social, 
+.quote, .social-links {
   background: #f11f2f;
   color: #fff;
   text-align: center;
@@ -155,6 +156,11 @@ i {
 }
 
 .social {
-  text-align: left;
-  padding: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
 }
