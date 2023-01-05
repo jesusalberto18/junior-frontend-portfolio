@@ -157,6 +157,11 @@ a {
   background: #f11f2f
 }
 
+.navbar-logo {
+  height: 100px;
+  width: 150px;
+}
+
 ul {
   display: inline-flex;
   align-items: flex-end;
