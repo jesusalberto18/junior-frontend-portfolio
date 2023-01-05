@@ -24,6 +24,10 @@ i {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*SECTIONS*/
 
 .top {
@@ -37,7 +41,7 @@ i {
 }
 
 .link-cv, .button-cv,
-.link-form, .button-form {
+.link-form, .button-form,{
   border: 2px solid #f11f2f;
   border-radius: 60px;
   color: #fff;
@@ -71,7 +75,23 @@ i {
   padding-right: 40px;
 }
 
-.form {
+.visit {
+  background: #f11f2f;
+  padding: 10px;
+  border: 2px solid #f11f2f;
+  border-radius: 60px;
+ }
+
+.project h3 {
+  margin: 40px;
+}
+
+.thumbnail {
+  height: 300px;
+  width: 100%;
+}
+
+.form, .project {
   padding: 50px;
   margin: 50px;
   color: #fff;
