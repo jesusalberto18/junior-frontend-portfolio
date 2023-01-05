@@ -154,6 +154,8 @@ a {
   background: #f11f2f
 }
 
+/*BANNERS*/
+
 .header img {
   padding: 0;
   margin: 0;
@@ -162,6 +164,11 @@ a {
   background-image: url(images/landing.jpg);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.logo img {
+  height: 300px;
+  width: 100%;
 }
 
 /*FOOTER*/
