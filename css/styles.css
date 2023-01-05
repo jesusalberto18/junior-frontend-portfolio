@@ -140,8 +140,8 @@ a {
 
 .navbar, .navbar li, .navbar li a {
   display: inline-flex;
-  justify-content: flex-end;
-  text-align: right;
+  justify-content: flex-start;
+  text-align: center;
   text-decoration: none;
   background: #f11f2f;
   padding: 10px;
@@ -152,17 +152,17 @@ a {
 
 .navbar li a:hover {
   display: inline-flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   color: #111f2f;
   background: #f11f2f
 }
 
-.navbar-logo {
+.navbar img {
   height: 100px;
   width: 150px;
 }
 
-ul {
+.navbar ul {
   display: inline-flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -173,7 +173,7 @@ ul {
 .header img {
   padding: 0;
   margin: 0;
-  height: 120px;
+  height: 150px;
   width: 100%;
   background-image: url(images/landing.jpg);
   background-position: center;
