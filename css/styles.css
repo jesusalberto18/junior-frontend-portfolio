@@ -89,6 +89,7 @@ a {
 .thumbnail {
   height: 300px;
   width: 100%;
+  border: 2px solid #fff;
 }
 
 .form, .project {
