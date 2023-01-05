@@ -41,7 +41,7 @@ a {
 }
 
 .link-cv, .button-cv,
-.link-form, .button-form,{
+.link-form, .button-form {
   border: 2px solid #f11f2f;
   border-radius: 60px;
   color: #fff;
