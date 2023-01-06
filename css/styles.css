@@ -20,7 +20,7 @@ strong {
 
 i {
   background: #f11f2f;
-  padding-right: 20px;
+  padding-right: 5px;
   font-size: 18px;
 }
 
@@ -46,8 +46,8 @@ a {
   border-radius: 60px;
   color: #fff;
   background: #f11f2f;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   font-weight: bolder;
   font-size: 15px; 
 }
@@ -90,6 +90,11 @@ a {
   border: 2px solid #f11f2f;
   border-radius: 60px;
  }
+
+.link-cv:hover, .link-form:hover,
+.visit:hover, i:hover {
+  color: #111f2f; 
+}
 
 .project h3 {
   margin: 40px;
