@@ -53,11 +53,11 @@ a {
 }
 
 .start p,
-.about p,
-.projects p,
-.skills p,
-.faq p,
-.contact p {
+#about p,
+#projects p,
+#skills p,
+#faq p,
+#contact p {
   padding: 10px;
   padding-top: 30px;
   font-size: 20px;
@@ -66,20 +66,20 @@ a {
 }
 
 .start h1:hover,
-.about h1:hover,
-.projects h1:hover,
-.skills h1:hover,
-.faq h1:hover,
-.contact h1:hover {
+#about h1:hover,
+#projects h1:hover,
+#skills h1:hover,
+#faq h1:hover,
+#contact h1:hover {
   color: #f11f2f;
 }
 
-.start p, .projects p, .faq p {
+.start p, #projects p, #faq p {
   text-align: left;
   padding-left: 40px;
 }
 
-.about p, .skills p, .contact p {
+.about p, #skills p, #contact p {
   text-align: right;
   padding-right: 40px;
 }
