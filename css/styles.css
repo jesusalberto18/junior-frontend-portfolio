@@ -65,6 +65,15 @@ a {
   font-family: 'Arial', sans-serif;
 }
 
+.start h1:hover,
+.about h1:hover,
+.projects h1:hover,
+.skills h1:hover,
+.faq h1:hover,
+.contact h1:hover {
+  color: #f11f2f;
+}
+
 .start p, .projects p, .faq p {
   text-align: left;
   padding-left: 40px;
@@ -166,6 +175,11 @@ a {
   display: inline-flex;
   align-items: flex-end;
   justify-content: flex-end;
+  /*position: fixed;
+  transition: top 0.3s;
+  width: 100%;
+  top: 50;
+  float: left;*/
 }
 
 /*BANNERS*/
