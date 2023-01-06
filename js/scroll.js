@@ -1,3 +1,7 @@
+ScrollReveal().reveal('.navbar');
+
+ScrollReveal().reveal('.header');
+
 ScrollReveal().reveal('.start');
 
 ScrollReveal().reveal('.btn-cv');
