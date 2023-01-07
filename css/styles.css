@@ -282,7 +282,7 @@ a {
     font-size: 14px;
   }
   .navbar ul.nav-menu li:last-child {
-    border-bottom: 0;
+    border-bottom: inherit;
   }
 
   .navbar ul.nav-menu.show {
