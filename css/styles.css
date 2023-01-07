@@ -260,6 +260,10 @@ a {
     opacity: 0.5;
   }
 
+  #testimonials {
+    font-size: 12px;
+  }
+
   .navbar ul.nav-menu {
     display: block;
     position: absolute;
