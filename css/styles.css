@@ -61,17 +61,22 @@ a {
   align-items: flex-end;
   justify-content: flex-end;
   padding: 60px;
-  font-weight: bolder;
+  text-align: center;
 }
 
-.stack p {
-  border-radius: 40px;
-  text-align: center;
+.stack h3 {
+  border-radius: 60px;
   text-decoration: none;
   list-style: none;
   color: #fff;
   background: #f11f2f;
-  padding: 20px;
+  font-weight: bolder;
+  padding: 40px;
+  margin-right: 20px;
+}
+
+.stack h3:hover {
+  color: #111f2f;
 }
 
 #questions {
