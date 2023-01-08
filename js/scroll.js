@@ -16,6 +16,12 @@ ScrollReveal().reveal('#skills', { delay: 1000 });
 
 ScrollReveal().reveal('#faq', { delay: 1000 });
 
+ScrollReveal().reveal('#questions', { delay: 1000 });
+
+ScrollReveal().reveal('.question', { delay: 1000 });
+
+ScrollReveal().reveal('.answer', { delay: 1000 });
+
 ScrollReveal().reveal('#clients', { delay: 1000 })
 
 ScrollReveal().reveal('#contact', { delay: 1000 });
