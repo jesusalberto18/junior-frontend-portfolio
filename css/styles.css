@@ -335,6 +335,18 @@ a {
   .navbar ul.nav-menu.show {
     transform: translateX(-20px);
   }
+
+  .stack h3 {
+    border-radius: 60px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background: #f11f2f;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 25px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -380,6 +392,18 @@ a {
     align-items: flex-start;
     padding-top: 20px;
     background: #111f2f;
+  }
+
+  .stack h3 {
+    border-radius: 60px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background: #f11f2f;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 20px;
+    margin-right: 20px;
   }
 
   #questions {
