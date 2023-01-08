@@ -56,12 +56,36 @@ a {
   font-size: 15px; 
 }
 
+#questions {
+  padding: 20px;
+  margin: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+}
+
+#questions h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#questions p {
+  text-align: left;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.separator {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .start p,
 #about p,
 #projects p,
 #skills p,
 #faq p,
-#clients p,
 #contact p {
   padding: 10px;
   padding-top: 30px;
@@ -75,17 +99,16 @@ a {
 #projects h1:hover,
 #skills h1:hover,
 #faq h1:hover,
-#clients h1:hover,
 #contact h1:hover {
   color: #f11f2f;
 }
 
-.start p, #projects p, #faq p, #contact p {
+.start p, #projects p, #faq p {
   text-align: left;
   padding-left: 40px;
 }
 
-.about p, #skills p, #clients p {
+.about p, #skills p, #contact p {
   text-align: right;
   padding-right: 40px;
 }
@@ -221,7 +244,7 @@ a {
 }
 
 .logo {
-  height: 300px;
+  height: 800px;
   width: 100%;
 }
 
@@ -260,10 +283,6 @@ a {
     opacity: 0.5;
   }
 
-  #testimonials {
-    font-size: 12px;
-  }
-
   .navbar ul.nav-menu {
     display: block;
     position: absolute;
@@ -285,6 +304,7 @@ a {
     border-bottom: #ccc solid 1px;
     font-size: 14px;
   }
+
   .navbar ul.nav-menu li:last-child {
     border-bottom: inherit;
   }
@@ -337,5 +357,30 @@ a {
     align-items: flex-start;
     padding-top: 20px;
     background: #111f2f;
+  }
+
+  #questions {
+    padding: 20px;
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+  }
+
+  #questions h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #questions p {
+    text-align: left;
+    font-weight: lighter;
+    padding-top: 10px;
+  }
+
+  .separator {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
