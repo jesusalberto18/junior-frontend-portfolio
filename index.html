@@ -121,7 +121,7 @@
           <h1>Hire me</h1>
           <p>Now that you're amazed with the work and skills of this great developer,<br>
           you may contact him here to negociate your future job offer.</p>
-          <div class="form">
+          <div class="form" onclick="sendEmail(); reset(); return false;">
             <div id="name">
               <input type="text" name="name" placeholder="Name" required>
             </div>
@@ -175,6 +175,7 @@
 
     <!-- SMTP.js -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="smtp.js"></script>
 
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
