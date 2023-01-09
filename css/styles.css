@@ -170,8 +170,8 @@ a {
   border-radius: 40px;
 }
 
-.name, .lastname, .phone,
-.email, .subject {
+#name, #lastname, #phone,
+#email, #subject {
   display: flex;
   align-items: flex-start;
   padding-top: 10px;
@@ -180,7 +180,7 @@ a {
   font-size: 20px;
 }
 
-.phone p, .email p {
+#phone p, #email p {
   color: #fff;
   padding: 0;
   padding-left: 10px;
@@ -188,8 +188,8 @@ a {
   font-weight: lighter;
 }
 
-.name input, .lastname input, .phone input,
-.email input, .subject input, .message textarea {
+#name input, #lastname input, #phone input,
+#email input, #subject input, #message textarea {
   border: 2px solid #fff;
   border-radius: 40px;
   color: #444c4c;
@@ -198,7 +198,7 @@ a {
   padding: 10px;
 }
 
-.message {
+#message {
   display: flex;
   align-items: flex-start;
   padding-top: 20px;
@@ -413,8 +413,8 @@ a {
     border-radius: 40px;
   }
 
-  .name, .lastname, .phone,
-  .email, .subject {
+  #name, #lastname, #phone,
+  #email, #subject {
     display: flex;
     align-items: flex-start;
     padding-top: 10px;
@@ -423,7 +423,7 @@ a {
     font-size: 12px;
   }
 
-  .phone p, .email p {
+  #phone p, #email p {
     color: #fff;
     padding: 0;
     padding-left: 10px;
@@ -431,8 +431,8 @@ a {
     font-weight: lighter;
   }
 
-  .name input, .lastname input, .phone input,
-  .email input, .subject input, .message textarea {
+  #name input, #lastname input, #phone input,
+  #email input, #subject input, #message textarea {
     border: 2px solid #fff;
     border-radius: 40px;
     color: #444c4c;
@@ -441,7 +441,7 @@ a {
     padding: 10px;
   }
 
-  .message {
+  #message {
     display: flex;
     align-items: flex-start;
     padding-top: 20px;
