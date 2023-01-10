@@ -1,6 +1,6 @@
 function senEmail() {
 	Email.send({
-	    SecureToken : "8da7e806-3c1d-4c57-992e-3d95ede64f91",
+	    SecureToken : "b3fe399c-7865-49b2-a490-5e1830d801ab",
 	    To : 'albertiae.digital@gmail.com',
 	    From : document.getElementById("email").value,
 	    Subject : document.getElementById("subject").value + " is interested in your services.",
